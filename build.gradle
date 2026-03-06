@@ -1,0 +1,7 @@
+plugins { id 'groovy'; id 'application' }
+repositories { mavenCentral() }
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.5.7'
+    implementation 'org.grails:grails-core:3.3.10'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE'
+}
